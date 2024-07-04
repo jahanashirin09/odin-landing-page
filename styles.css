@@ -106,7 +106,6 @@ body {
 }
 .quote {
     background-color: #E5E7EB;
-    
     text-align: center;
     height:300px;
     margin-top: 50px;
@@ -118,15 +117,16 @@ body {
     font-size: 26px;
     color:#1F2937;
     margin-top: 70px;
-    text-align: center;
+    text-align: start;
     padding-top:70px;
-    padding-bottom: 90px;
     height:100px;
     margin:30px 100px;
     opacity: .8;
 }
 .sub-quote-text{
     margin-top: 0px;
+    font-weight: bold;
+    margin-left: 450px;
 }
 footer {
   
@@ -136,6 +136,7 @@ footer {
     flex-direction: column;
     justify-content: center;
    align-items: center;
+   margin-bottom: 50px;
     
 }
 
